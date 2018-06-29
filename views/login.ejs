@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/bootstrap/3.3.6/bootstrap.min.css" />
+		<script src="js/bootstrp/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrp/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<img src="images/login_bg.jpg" class="login_bg" />
+		<div class="login">
+			<form class="form-horizontal" method="post" action="#">
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label"></label>
+					<div class="col-sm-10">
+						<span id="content" style="color: orange;"><%=content %></span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputEmail3" class="col-sm-2 control-label big">账号</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="userName" placeholder="请输入账号">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="inputPassword3" class="col-sm-2 control-label big">密码</label>
+					<div class="col-sm-10">
+						<input type="password" class="form-control" name="userPass" placeholder="请输入密码">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-primary">登录</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+
+</html>
